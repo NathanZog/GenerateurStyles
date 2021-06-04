@@ -1,3 +1,5 @@
+/* Titre */
+
 #divTitre {
     display: flex;
     justify-content: center;
@@ -12,14 +14,21 @@
     text-decoration: underline solid 5px white;
 }
 
+/* Div 1 (buttons) */
+
 .container {
     display: flex;
-    justify-content: center;
-    width: 75%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
 }
 
 .btnWRGB {
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .btnGris {
@@ -52,4 +61,137 @@
     width: 50px;
     height: 50px;
     background-color: blue;
+}
+
+.styleBorder1 {
+    height: 30px;
+    width: 70px;
+    border-radius: 15%;
+    border-width: 5px;
+}
+
+.styleBorder2 {
+    height: 30px;
+    width: 70px;
+    border-radius: 15%;
+    border-style: dotted;
+}
+
+.styleBorder3 {
+    height: 30px;
+    width: 70px;
+    border-radius: 15%;
+    border-width: 1px;
+}
+
+
+
+.lowPxBorder {
+    height: 30px;
+    width: 50px;
+    border-radius: 15%;
+    border: none;
+    border-top: solid red 2px;
+}
+
+.middlePxBorder {
+    height: 30px;
+    width: 50px;
+    border-radius: 15%;
+    border: none;
+    border-top: solid red 5px;
+}
+
+.highPxBorder {
+    height: 30px;
+    width: 50px;
+    border-radius: 15%;
+    border: none;
+    border-top: solid red 8px;
+}
+
+/* Div selecteur couleurs */
+
+#generateurCouleurs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+#generateurCouleurs>h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 2%;
+}
+.colorpicker {
+    width: 750px;
+}
+.titreGenNbr{
+    display: flex;
+    justify-content: center;
+}
+
+.titreGenNbr>h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#generateurNombres{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.numberSelector{
+    width: 75px;
+    margin-left: 2%;
+}
+
+.numberSelector0{
+
+    border: solid 4px;
+}
+.numberSelector1{
+    border: solid 1px;
+    border-top: solid 4px;
+}
+.numberSelector2{
+    border: solid 1px;
+    border-right: solid 4px;
+}
+.numberSelector3{
+    border: solid 1px;
+    border-bottom: solid 4px;
+}
+.numberSelector4{
+    border: solid 1px;
+    border-left: solid 4px;
+}
+
+/* Div 3 */
+
+.container3 {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titreDiv{
+    display: flex;
+    justify-content: center;
+}
+.titreDiv>h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* rectangle des changements */
+
+.grandRectangle{
+    width: 55%;
+    height: 150px;
+    border: solid black 1px;
 }
