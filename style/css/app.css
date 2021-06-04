@@ -1,0 +1,55 @@
+#divTitre {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+#titre {
+    font-size: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-decoration: underline solid 5px white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.btnWRGB {
+    padding-top: 2%;
+}
+
+.btnGris {
+    border: none;
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+}
+
+.btnRouge {
+    border: none;
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.btnVert {
+    border: none;
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+.btnBleu {
+    border: none;
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
